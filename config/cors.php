@@ -16,6 +16,9 @@ return [
     */
 
     'paths' => ['api/*', 'sanctum/csrf-cookie','contact'],
+    
+    'allowed_origins' => ['https://your-netlify-app.netlify.app'],
+
 
     'allowed_methods' => ['*'],
 
