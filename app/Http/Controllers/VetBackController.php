@@ -33,7 +33,7 @@ class VetBackController extends Controller
             });
 
             return response()->json([
-                'message' => 'Formulario enviado y almacenado correctamente.',
+                'message' => 'Formulario enviado y almacenado correctamente esperando respuesta.',
                 'data' => $vetBack
             ]);
     }
